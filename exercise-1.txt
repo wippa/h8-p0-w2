@@ -1,0 +1,42 @@
+Soal 1 "Newton Second Law"
+STORE "massa" = 600
+STORE "percepatan" = 2
+STORE "resultan"
+
+CALCULATE "massa" times "percepatan"
+SET "resultan"
+
+DISPLAY "resultan"
+
+
+Soal 2 "Tahun Kabisat"
+STORE "TAHUN" with any number
+  IF "TAHUN" MOD 4 = 0 than IF " TAHUN" MOD 100=1
+  ELSE
+    IF "TAHUN" MOD 4 = 0 than IF "TAHUN" MOD 100=0 than IF "TAHUN" MOD 400=0
+  STORE "REMAINDER"
+    IF "REMAINDER" = 0
+      DO "TAHUN KABISAT"
+    ELSE
+      DO "BUKAN TAHUN KABISAT"
+
+
+Soal 3 "Laundry Day"
+STORE "Baju" with 0
+
+WHILE "Baju" < 20
+  ADD "Baju" by 1
+
+DISPLAY "Nyalakan Mesin"
+
+
+Soal 4 "Periksa Kuku"
+STORE "MURID" with 0
+
+WHILE "MURID" <40
+  ADD "MURID" by 1
+
+IF "Kuku Panjang"
+  DO "Beri Hukuman"
+ELSE
+  DO "PUJIAN"
